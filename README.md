@@ -1,2 +1,2 @@
-# hexo_src_for_moky.cc
-The Hexo source code for moky.cc
+# Hexo source for moky.cc
+This is the Hexo source code for moky.cc, for more information, please reference to http://hexo.io

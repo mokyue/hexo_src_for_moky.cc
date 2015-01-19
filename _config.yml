@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-email:
-language:
+title: Mok's Studio
+subtitle: Life is a beautiful struggle.
+description: Impressive, truly.
+author: Moky
+email: mokyue@163.com
+language: Simple Chinese
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://moky.cc
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -74,7 +74,7 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: mokyue
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
@@ -85,4 +85,5 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: git@github.com:mokyue/mokyue.github.io.git
