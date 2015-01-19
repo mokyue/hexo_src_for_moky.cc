@@ -8,7 +8,7 @@ subtitle: Life is a beautiful struggle.
 description: Impressive, truly.
 author: Moky
 email: mokyue@163.com
-language: zh-CN
+language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -79,7 +79,7 @@ disqus_shortname: mokyue
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: phase
+theme: pacman
 exclude_generator:
 
 # Deployment
