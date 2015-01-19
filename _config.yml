@@ -82,6 +82,10 @@ disqus_shortname: mokyue
 theme: pacman
 exclude_generator:
 
+# CSS stylus format
+stylus:
+  compress: false
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
