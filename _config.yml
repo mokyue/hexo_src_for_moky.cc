@@ -78,6 +78,9 @@ disqus_shortname: mokyue
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: pacman
 exclude_generator:
