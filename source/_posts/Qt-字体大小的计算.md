@@ -51,6 +51,7 @@ Point实际是磅，也就是 1/72 inch
 可以将字体设置为25Pixel，看到字体的大小就是20Point和25Pixel大小是一样的。
 
 QFont当中设置的大小，实际上字体的高度，由如下组成。
+![110211082116831.jpg](http://www.linuxidc.com/upload/2011_02/110211082116831.jpg)
 
 由PixelSize设置的高度，实际是Asent + 1像素(baseline的高度)。
 
