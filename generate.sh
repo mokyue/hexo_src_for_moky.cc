@@ -1,0 +1,7 @@
+hexo clean
+rm -rf $(cd `dirname $0` && pwd)/public/*
+hexo generate
+cp $(cd `dirname $0` && pwd)/CNAME $(cd `dirname $0` && pwd)/public
+cp $(cd `dirname $0` && pwd)/robots.txt $(cd `dirname $0` && pwd)/public
+cp $(cd `dirname $0` && pwd)/LICENSE $(cd `dirname $0` && pwd)/public
+cp $(cd `dirname $0` && pwd)/README.md $(cd `dirname $0` && pwd)/public
