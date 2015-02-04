@@ -1,5 +1,5 @@
-date: "2015-01-19 13:04:04.703"
-argv: "c:\\Program Files (x86)\\nodejs\\node.exe c:\\Users\\N1213\\AppData\\Roaming\\npm\\node_modules\\hexo\\bin\\hexo deploy"
+date: "2015-02-04 14:47:58.403"
+argv: "c:\\Program Files (x86)\\nodejs\\node.exe c:\\Users\\N1213\\AppData\\Roaming\\npm\\node_modules\\hexo\\bin\\hexo clean"
 os: Windows_NT 6.1.7601 win32 ia32
 versions:
   http_parser: "1.0"
@@ -12,7 +12,5 @@ versions:
   openssl: 1.0.1j
   hexo: 2.8.3
 ---
-[debug] 13:04:04.276 Config file loaded from e:\Workspace\Github\hexo_src_for_moky.cc\_config.yml[debug] 13:04:04.278 Version info checked successfully[debug] 13:04:04.299 Loading database.[debug] 13:04:04.335 Processed: draft.md (2ms)[debug] 13:04:04.335 Processed: photo.md (1ms)[debug] 13:04:04.335 Processed: page.md (1ms)[debug] 13:04:04.335 Processed: post.md (1ms)[debug] 13:04:04.350 Plugin loaded successfully: hexo-renderer-ejs[debug] 13:04:04.371 Plugin loaded successfully: hexo-renderer-marked[debug] 13:04:04.505 Plugin loaded successfully: hexo-renderer-stylus[debug] 13:04:04.507 Script load successfully: fancybox.js[info] 13:04:04.508 Start deploying: github[info] 13:04:04.510 Setting up GitHub deployment...[error] 13:04:04.698 Error: spawn EPERM
-Error: spawn EPERM
-    at errnoException (child_process.js:1011:11)
-    at Process.ChildProcess._handle.onexit (child_process.js:802:34)
+[debug] 14:47:58.140 Config file loaded from e:\Workspace\Github\moky.cc\_config.yml[debug] 14:47:58.142 Version info checked successfully[debug] 14:47:58.164 Loading database.[debug] 14:47:58.202 Processed: draft.md (1ms)[debug] 14:47:58.202 Processed: photo.md (1ms)[debug] 14:47:58.202 Processed: page.md (0ms)[debug] 14:47:58.202 Processed: post.md (0ms)[debug] 14:47:58.212 Plugin loaded successfully: hexo-generator-feed[debug] 14:47:58.218 Plugin loaded successfully: hexo-generator-sitemap[debug] 14:47:58.239 Plugin loaded successfully: hexo-renderer-ejs[debug] 14:47:58.251 Plugin loaded successfully: hexo-renderer-marked[debug] 14:47:58.382 Plugin loaded successfully: hexo-renderer-stylus[debug] 14:47:58.384 Script load successfully: fancybox.js[info] 14:47:58.384 Deleted cache file[error] 14:47:58.398 Error: EBUSY, rmdir 'e:\Workspace\Github\moky.cc\public'
+Error: EBUSY, rmdir 'e:\Workspace\Github\moky.cc\public'
