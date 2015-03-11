@@ -10,7 +10,7 @@ tags:
 - Branch
 - Tags
 ---
->[转] 原创作品，允许转载，转载时请务必以超链接形式标明文章 原始出处 、作者信息和本声明。否则将追究法律责任。
+>【转】原创作品，允许转载。转载时请务必以超链接形式标明文章原始出处、作者信息和本声明，否则将追究法律责任。
 >[http://blog.sina.com.cn/s/blog_49a94d1b0100r7id.html](http://blog.sina.com.cn/s/blog_49a94d1b0100r7id.html "http://blog.sina.com.cn/s/blog_49a94d1b0100r7id.html")
 
 `trunk`:主线，开发过程中的工作目录

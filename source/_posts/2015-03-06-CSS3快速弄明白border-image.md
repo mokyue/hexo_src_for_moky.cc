@@ -5,7 +5,7 @@ categories:
 tags:
 - border-image
 ---
->[转] 原创作品，允许转载，转载时请务必以超链接形式标明文章 原始出处 、作者信息和本声明。否则将追究法律责任。
+>【转】原创作品，允许转载。转载时请务必以超链接形式标明文章原始出处、作者信息和本声明，否则将追究法律责任。
 >[http://www.cnblogs.com/niuniu/archive/2010/06/21/1761803.html](http://www.cnblogs.com/niuniu/archive/2010/06/21/1761803.html "http://www.cnblogs.com/niuniu/archive/2010/06/21/1761803.html")
 
 在看这个属性时，好像国内的文章都没给大家说太明白，今天就一起说说

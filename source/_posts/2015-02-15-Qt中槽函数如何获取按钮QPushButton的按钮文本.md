@@ -7,7 +7,7 @@ tags:
 - 信号
 - 槽
 ---
->[转] 原创作品，允许转载，转载时请务必以超链接形式标明文章 原始出处 、作者信息和本声明。否则将追究法律责任。
+>【转】原创作品，允许转载。转载时请务必以超链接形式标明文章原始出处、作者信息和本声明，否则将追究法律责任。
 >[http://blog.csdn.net/sowhat_ah/article/details/43483557](http://blog.csdn.net/sowhat_ah/article/details/43483557 "http://blog.csdn.net/sowhat_ah/article/details/43483557")
 
 Qt中的信号-槽机制大大降低了编程的耦合度；

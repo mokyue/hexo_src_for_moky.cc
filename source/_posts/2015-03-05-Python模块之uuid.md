@@ -5,7 +5,7 @@ categories:
 tags:
 - uuid
 ---
->[转] 原创作品，允许转载，转载时请务必以超链接形式标明文章 原始出处 、作者信息和本声明。否则将追究法律责任。
+>【转】原创作品，允许转载。转载时请务必以超链接形式标明文章原始出处、作者信息和本声明，否则将追究法律责任。
 >[http://blog.csdn.net/zhaoweikid/article/details/1649786](http://blog.csdn.net/zhaoweikid/article/details/1649786 "http://blog.csdn.net/zhaoweikid/article/details/1649786")
 
 `uuid`是一种唯一标识，在许多领域作为标识用途。`python`的`uuid`模块就是用来生成它的。

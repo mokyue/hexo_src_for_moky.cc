@@ -10,7 +10,7 @@ tags:
 - hide
 - close
 ---
->[转] 原创作品，允许转载，转载时请务必以超链接形式标明文章 原始出处 、作者信息和本声明。否则将追究法律责任。
+>【转】原创作品，允许转载。转载时请务必以超链接形式标明文章原始出处、作者信息和本声明，否则将追究法律责任。
 >[http://blog.csdn.net/dbzhang800/article/details/6300021](http://blog.csdn.net/dbzhang800/article/details/6300021 "http://blog.csdn.net/dbzhang800/article/details/6300021")
 
 不知道标题该怎么取了，文中就简单整理一下下面几个函数吧。因为不断有网友问到此类问题(包括相关问题)，所以，自己整理一下，也算学习小结了。
