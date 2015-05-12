@@ -27,11 +27,11 @@ function deploy_svn
     svn status ${OUT_TRAY_DIR} | while read LN_OUTPUT
     do
         echo "[warn] There are some unknown conflicts, please solve it manually."
+        svn status ${OUT_TRAY_DIR} | while read LN_OUTPUT
+        do
+            echo ${LN_OUTPUT}
+        done
         break
-    done
-    svn status ${OUT_TRAY_DIR} | while read LN_OUTPUT
-    do
-        echo ${LN_OUTPUT}
     done
 }
 

@@ -11,11 +11,11 @@ function sync_svn
     svn status ${BASE_DIR} | while read LN_OUTPUT
     do
         echo "[warn] There are some unknown conflicts, please solve it manually."
+        svn status ${BASE_DIR} | while read LN_OUTPUT
+        do
+            echo ${LN_OUTPUT}
+        done
         break
-    done
-    svn status ${BASE_DIR} | while read LN_OUTPUT
-    do
-        echo ${LN_OUTPUT}
     done
 }
 
