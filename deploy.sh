@@ -1,4 +1,10 @@
-function deploy
+function deploy_git
+{
+    DEPLOY_DIR=$(cd `dirname $0` && pwd)/.deploy
+    git config --global user.name "Moky" && git config --global user.email "mokyue@163.com" && git config --global core.autocrlf false && rm -rf ${DEPLOY_DIR} && hexo deploy && rm -rf ${DEPLOY_DIR}
+}
+
+function deploy_svn
 {
     BASE_DIR=$(cd `dirname $0` && pwd)
     CONFIG_FILE=${BASE_DIR}/deploy-svn.conf
@@ -29,4 +35,25 @@ function deploy
     done
 }
 
-deploy
+function deploy
+{
+    if [ $# -ne 1 ]
+    then
+        echo "[error] Parameter error, required 1 parameter only."
+        exit 1
+    fi
+    if [ "$1"x == "git"x -o "$1"x == "svn"x ]
+    then
+        if [ "$1"x == "git"x ]
+        then
+            deploy_git
+        else
+            deploy_svn
+        fi
+    else
+        echo "[usage] $0 [git/svn]"
+        exit 1
+    fi
+}
+
+deploy $@
