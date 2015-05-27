@@ -2,8 +2,8 @@ title: 自定义QTabWidget样式
 date: 2015-05-10 13:27:38
 categories:
 - Qt
-- PyQt
 tags:
+- PyQt
 - QSS
 - QTabWidget
 ---

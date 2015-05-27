@@ -1,9 +1,9 @@
 title: Qt重写paintEvent绘制窗体阴影
 date: 2015-05-12 21:57:44
 categories:
-- Qt
 - PyQt
 tags:
+- Qt
 - paintEvent
 - 绘制阴影
 ---
