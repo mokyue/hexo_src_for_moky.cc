@@ -44,3 +44,38 @@ QScrollBar::up-arrow, QScrollBar::down-arrow {
 
 运行结果：
 ![QScrollBar-qss.png](QScrollBar-qss.png)
+
+<br>
+还有一种是半透明效果的:
+``` css
+QScrollBar:vertical {
+    background: rgba(0,0,0,100);
+    width: 10px;
+}
+QScrollBar::handle:vertical {
+    background: rgba(255,255,255,180);
+    min-height: 70px;
+	border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: rgba(255,255,255,255);
+}
+QScrollBar::handle:vertical:pressed {
+    background: rgba(255,255,255,200);
+}
+QScrollBar::add-line:vertical {
+    background: none;
+}
+
+QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+```
+
+运行结果：
+![QScrollBar-qss2.png](QScrollBar-qss2.png)

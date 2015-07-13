@@ -40,3 +40,31 @@ QTabBar:tab:hover {
 ![tab-normal.png](tab-normal.png)
 
 ![tab-selected.png](tab-selected.png)
+
+<br>
+还有另外一种半透明效果的:
+``` css
+QTabWidget:pane {
+    border: none;
+}
+
+QTabBar:tab {
+    background: rgba(0, 0, 0, 120);
+    color: #a59400;
+    width: 128px;
+    height: 19px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-right: 2px;
+}
+
+QTabBar:tab:selected {
+    background: rgba(0, 0, 0, 166);
+    color: #fae119;
+}
+
+QTabBar:tab:hover:!selected {
+    background: rgba(0, 0, 0, 156);
+}
+```
+![效果图](result2.png)
