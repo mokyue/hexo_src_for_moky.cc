@@ -25,7 +25,7 @@ tags:
 ``` cpp
 #ifndef GRAPHICS_H // 防止graphics.h被重复引用
 #define GRAPHICS_H
-
+ 
 #include <math.h> // 引用标准库的头文件
 …
 #include “myheader.h” // 引用非标准库的头文件
